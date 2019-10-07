@@ -1,0 +1,410 @@
+body{
+	background-color: #f4f4f4;
+	color: #555;
+	font-family: sans-serif;
+	font-size: 16px
+	line-height:1.6em;
+	margin: 0;
+}
+
+.container{
+	display: flex;
+}
+
+.container div{
+	/*border: 1px black solid;*/
+}
+
+.box-1{
+	flex-basis: 50%;
+	margin: 2%;
+}
+
+.box-2{
+	flex-basis: 50%;
+	margin: 2%;
+	margin-left: 5%;
+	display: flex;
+
+}
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+section{
+	padding: 10px 10px;
+	background-color: #fff;
+	
+
+
+}
+
+.card-wrapper{
+	display: flex;
+	align-items: center;
+	align-content: center;
+	flex-direction: column;
+	padding: 0px;
+	width: 220px;
+
+}
+
+.card{
+	font-size: 8px;
+	font-family: Roboto , sans-serif;
+	width: 200px;
+	background-color: #ebeef8;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 10px -100px ;
+	box-shadow: 0.5rem 0.5rem 3rem , rgba(0,0,0,0.2);
+
+}
+
+.card .card-img{
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+
+}
+
+.profile-img{
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	border-radius:50%;
+	margin-top: -100px;
+	z-index: 999;
+	border: 10px solid #ebeef8
+}
+
+.card h1{
+	font-size:20px;
+	color:#333;
+	margin: 20px 0 ;
+
+}
+
+.job-title{
+	color: #777;
+	font-size: 20px;
+	font-weight: 300;
+
+
+}
+
+.about{
+	font-size:30px;
+	margin: 25px 0;
+	font-style: italic;
+	text-align: center;
+	color:#333;
+
+}
+
+.card .btn{
+	padding: 10px 25px;
+	background-color: #445ae3;
+	border-radius: 2rem;
+	margin:25px 0;
+	text-transform: uppercase;
+	color:#eee;
+	font-size: 20px;
+	transition: all .5s;
+
+}
+
+.card .btn:hover{
+	transform: translateY(-2px);
+	box-shadow: .5rem .5rem 2rem rgba(0,0,0,0.2)
+
+}
+
+.card .btn:active{
+	transform: translateY(0px);
+	box-shadow: none;
+}
+
+.card a{
+	text-decoration: none;
+	color: #fff;
+}
+
+
+
+.all{
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+
+}
+
+
+
+.mainheader{
+	background-color: coral;
+	color: #fff
+
+}
+
+.mainheader h1{
+	padding: 20px;
+	margin: 0px;
+}
+
+.navbar{
+	background-color: #333;
+	color:#fff;
+	padding: 15px 0 ;
+
+}
+
+.navbar ul{
+	padding: 0;
+	list-style: none;
+
+}
+.navbar li{
+	display: inline;
+
+}
+
+.navbar a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+	transition: all .5s;
+}
+
+.navbar a:hover{
+	color: coral;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+}
+
+
+
+.foot{
+		background-color: #333;
+		color: white;
+		text-align: center;
+		padding: 35px;
+		margin-top: 10px;
+}
+
+.urlap{
+	margin-left: 25%;
+	background-color: coral;
+	margin-right: 25%;
+	margin: 1% 35%
+
+
+}
+
+
+.pont{
+	margin-top: 0px;
+	padding: 10px 0;
+	margin-bottom: 12px;
+
+}
+.pont-1{
+	padding-top: 12px;
+	padding: 10px 0;
+	margin-bottom: 12px;
+
+}
+
+.gomb{
+	color: white;
+	background-color: #333;
+	border: 1px solid coral;
+	margin-left: 10%;
+	margin-top: 10px;
+	padding:20px;
+	border-radius: 15px;
+	font-size: 30px;
+	margin-bottom: 10px;
+	transition: all .5s;
+	
+
+}
+
+.gomb:hover{
+	color: coral;
+	font-size: 30px;
+	transform: translateY(-2px);
+	box-shadow: .5rem .5rem 2rem rgba(0,0,0,0.2)
+
+}
+
+.szoveg{
+	font-size: 20px;
+	font-weight: 200px;
+}
+
+.logo{
+	width: 300px;
+	margin-left: 15%;
+
+}
+
+.box-3{
+	flex-basis: 75%;
+	background-color: coral;
+	border: 1px black solid;
+	margin:10px 0;
+	margin-left: 10px;
+	border-radius: 15px;
+	
+}
+
+.box-3 div{
+	margin:10px 30px;
+	padding: 10px 0px;
+	padding-bottom: 130px;
+	border: 1px black solid;
+	min-height: 390px;
+	
+
+}
+
+.box-3 h1{
+	font-size: 50px;
+	text-align:center;
+	padding: 10px 0;
+	color: white;
+
+}
+
+.box-3 h2{
+	font-size:35px;
+	/*border-bottom: solid coral 5px;*/
+	margin-left: 5%;
+	color: coral;
+	margin-bottom: 10px;
+	text-decoration: underline;
+
+
+}
+
+.box-3 img{
+	float: left;
+	width: 250px;
+	margin-left: 10px;
+	height: 300px;
+	margin-top:10px;
+
+
+}
+
+.box-3 p{
+	text-align: right;
+	font-size: 22px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+}
+
+.box-3 .termek{
+	color: white;
+	background-color: #333;
+	border: 1px black solid;
+
+
+}
+
+.box-4{
+	flex-basis: 24%;
+	border: 1px black solid;
+	margin:10px 0;
+	margin-right:  10px;
+	margin-left: 20px;
+	padding-top: 10px;
+
+	
+
+
+}
+
+.box-5{
+	flex-basis: 50%;
+	margin-left:2%;
+}
+
+.box-6{
+	flex-basis: 50%;
+	margin-left:5%;
+}
+
+.container-2{
+	display: flex;
+}
+
+.kics{
+	font-size: 20px;
+	text-decoration: underline;
+
+}
+
+.form-1{
+	font-size: 25px;
+	margin: 20px;
+	margin-top: 40px;
+
+}
+
+.gomb-2{
+	padding: 20px;
+	font-size: 30px;
+	color: white;
+	background-color: coral;
+	border: 1px solid coral;
+	margin-left: 35%;
+	margin-top: 20px;
+	border-radius: 15px;
+	transition: all .5s;
+}
+
+.gomb-2:hover{
+	color: black;
+	font-size: 30px;
+	transform: translateY(-2px);
+	box-shadow: .5rem .5rem 2rem rgba(0,0,0,0.2)	
+}
+
+h4{
+	margin-left:50%;
+	font-size: 40px;
+	margin-top: 40px;
+	text-decoration: underline;
+	color:coral;
+}
+
+.box-4 .box-10{
+	background-color: coral;
+	padding: 40% 10%;
+	border-radius: 15px;
+	margin: 5.5% 2%; 
+}
+
+.termek-le{
+	float:left;
+	padding-left: 10px;
+
+
+}
+
+.box-3 .termek-le{
+	font-size: 30px;
+}
+
+
+
+
+
